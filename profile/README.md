@@ -1,8 +1,8 @@
 # Python microservice flavours
 
-This repository is intended to demonstrate a set of different problems, approaches and peculiarities that one may encounter over the course of microservice development in Python.
+This set of repositories is intended to demonstrate a set of different problems, approaches and peculiarities that one may encounter over the course of microservice development in Python.
 
-Each catalog at this level contains a specific project.
+Each repository contains a specific project.
 <br />
 <br />
 
