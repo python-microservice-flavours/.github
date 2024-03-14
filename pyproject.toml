@@ -1,0 +1,50 @@
+[build-system]
+
+# Once this is present, a PEP 517 frontend like pip can build and install the project from source
+# without the need for Poetry or any of its dependencies.
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+# -------------------------------------------------------------------------------------------------
+
+[tool.poetry]
+
+# The authors of the package.
+authors = ["Denis Borisov <denis.borisov@hotmail.com>"]
+
+# A short description of the package.
+description = "Python Microservice Flavours"
+
+# An URL to the documentation of the project.
+documentation = "https://github.com/python-microservice-flavours"
+
+# A list of keywords that the package is related to.
+keywords = ["python", "microservice", "flavours"]
+
+# The license of the package.
+license = "Proprietary"
+
+# The name of the package.
+name = "python-microservice-flavours"
+
+# A path, or list of paths corresponding to the README file(s) of the package.
+readme = ["profile/README.md"]
+
+# An URL to the repository of the project.
+repository = "https://github.com/python-microservice-flavours/.github"
+
+# The version of the package.
+version = "0.1.0"
+
+# -------------------------------------------------------------------------------------------------
+
+[tool.poetry.dependencies]
+
+python = "^3.11"
+
+# -------------------------------------------------------------------------------------------------
+
+
+[tool.poetry.group.dev.dependencies]
+
+pre-commit = "*"

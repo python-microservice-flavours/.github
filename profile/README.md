@@ -13,6 +13,7 @@ Each project embodies such patterns as hexagonal (clean) architecture, event sou
 Each project contains three types of tests: modular, integration and end-to-end. Test coverage exceeds 80%.
 
 Each project exploits linters, formatters, and type checkers, namely:
+
 - black
 - docformatter
 - isort
@@ -53,6 +54,7 @@ or this one to update them:
 ```shell
 poetry update
 ```
+
 <br />
 
 #### Installing `pre-commit`
@@ -62,6 +64,7 @@ Use the following command to install `pre-commit`:
 ```shell
 make pre-commit
 ```
+
 <br />
 
 ## Project launching

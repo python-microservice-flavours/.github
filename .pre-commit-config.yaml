@@ -1,0 +1,34 @@
+---
+repos:
+  # Meta
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+      - id: check-useless-excludes
+
+  # CheckMake
+  - repo: https://github.com/mrtazz/checkmake
+    rev: '0.2.2'
+    hooks:
+      - id: checkmake
+
+  # MDFormat
+  - repo: https://github.com/executablebooks/mdformat
+    rev: '0.7.17'
+    hooks:
+      - id: mdformat
+
+  # Pre-Commit
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-byte-order-marker
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  # YamlLint
+  - repo: https://github.com/adrienverge/yamllint
+    rev: 'v1.35.1'
+    hooks:
+      - id: yamllint
